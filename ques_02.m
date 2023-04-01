@@ -1,3 +1,4 @@
+%% Question --> 02
 clear; clc; close all;
 format compact;
 

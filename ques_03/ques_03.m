@@ -19,3 +19,6 @@ xlabel('Time (hours)');
 ylabel('Height/Velocity/Acceleration (m/m/h)');
 title('Altitude, Velocity, and Acceleration vs. Time');
 legend('Height','Velocity','Acceleration');
+
+b = sqrt(1+x^2);
+y = 0.4/b - b*(1 - 0.4/b^2 )+x;
