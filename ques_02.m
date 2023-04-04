@@ -1,5 +1,5 @@
 %% Question --> 02
-clear; clc; close all;
+clear; clc ; close all;
 format compact;
 
 % Defining variables
@@ -7,7 +7,7 @@ z0 = 100;
 v0 = 60;
 m =2;
 c = 15;
-t = 0.15:0.01:15;
+t = 0.1:0.001:15;
 g = 9.8;
 
 % Writing the equation

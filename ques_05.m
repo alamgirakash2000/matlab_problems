@@ -27,7 +27,6 @@ disp(Table)
 
 % Plotting the change in heat capacity with respect to temperature
 plot(T, Cp)
-xlabel('Temperature (K)')
-ylabel('Heat Capacity (J/mol-K)')
+xlabel('Temperature (K)'), ylabel('Heat Capacity (J/mol-K)');
 title('Change in Heat Capacity of Oxygen Gas')
 grid on
